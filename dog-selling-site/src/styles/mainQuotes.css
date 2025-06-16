@@ -1,0 +1,95 @@
+.mainQuotes-section {
+  position: relative;
+  min-height: 100vh;
+}
+
+.curved-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #d5c8ef;
+  padding: 50px;
+  text-align: center;
+  clip-path: ellipse(80% 70% at 20% 20%);
+}
+
+.curved-background img {
+            width: 100%;
+            max-width: 450px;
+            height: auto;
+            border-radius: 20px;
+            
+        }
+
+/* Content Page Styles */
+.contentPage {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            width: 50%;
+            padding: 0 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 750px;
+  text-align: center;
+}
+
+.quotes h1 {
+  font-size: 54px;
+  font-weight: 700;
+}
+
+.quotes p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contentPage-buttons {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.btn-2 {
+  width: 205px;
+  height: 53px;
+  background-color: #7D62B0;
+  font-size: 24px;
+  color: white;
+  border-radius: 12px;
+  border: 1px solid black;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.btn-2:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.btn-3 {
+  width: 205px;
+  height: 53px;
+  background-color: #f3e2d4;
+  font-size: 24px;
+  color: black;
+  border-radius: 12px;
+  border: 1px solid black;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.btn-3:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+ 

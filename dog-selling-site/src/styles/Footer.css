@@ -1,0 +1,125 @@
+/* Footer Styles */
+footer {
+  background-color: black;
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.footer-container {
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  justify-content: center;
+  padding: 32px 50px;
+}
+
+.footer-links h2 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.link-container {
+  display: flex;
+  gap: 67px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Style buttons to look like links */
+.footer-link-button {
+  background: none;
+  border: none;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  text-align: left;
+}
+
+.footer-link-button:hover {
+  color: #7D62B0;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: none;
+  padding: 32px 120px;
+}
+
+.footer-brand h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer-brand p {
+  padding-top: 15px;
+  font-size: 24px;
+}
+
+.socials {
+  display: flex;
+  gap: 24px;
+  margin-top: 14px;
+}
+
+/* Style social buttons */
+.social-button {
+  color: white;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 8px 12px;
+  background-color: black;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.social-button:hover {
+  background-color: #7D62B0;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 32px 50px;
+}
+
+.contact-info-item {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+
+.contact-info-item i {
+  font-size: 24px;
+}
+
+.contact-info-item p {
+  font-size: 24px;
+}
+
+.copyright {
+  margin-top: 20px;
+}
